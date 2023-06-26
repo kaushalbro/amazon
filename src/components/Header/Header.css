@@ -1,0 +1,293 @@
+a{
+     text-decoration: none;
+     color: white;
+}
+ li{
+     list-style: none;
+}
+ header{
+    /* height: 60px;
+     */
+     background-color: #131921;
+     display: flex;
+     align-items: center;
+     padding: 0 15px 0 5px;
+     color: white;
+     letter-spacing: .4px;
+     width: 100%;
+}
+ .main_logo{
+     display: flex;
+     align-items: center;
+}
+ .mobile_view_menu{
+     display: none;
+}
+ header img{
+     height: 60px;
+     width: 120px;
+     color: wheat;
+}
+ .location_icon{
+     color: white ;
+}
+ .deliver_location{
+     display: flex;
+     font-size:smaller;
+     color: rgb(153, 152, 151);
+    /* padding-right: 15px;
+     */
+     margin-right: 15px;
+}
+ .deliver_location p :nth-child(2){
+     font-size: 12.5px;
+     font-weight:bolder;
+     color: white;
+}
+ .deliver_location :nth-child(1){
+     margin-top: 2px;
+}
+ header :nth-child(){
+     color: red;
+}
+ .search_header{
+     display: flex;
+     flex-grow: 1;
+}
+ .search_header input{
+     padding:11.5px !important;
+     border: none;
+     width: 100%;
+}
+ .search_header input::placeholder{
+     font-size: 14px;
+}
+ .search_header .all_cat{
+     display: flex;
+     background-color: #F3F3F3;
+     padding: 8px;
+     border-radius: 5px 0 0 5px;
+     color: #5d5f61;
+     display: flex;
+     align-items: center;
+     font-size: small;
+}
+ .search_header .btn_search{
+     background-color:#FEBD69;
+     padding: 8px;
+     width: 45px;
+     display: flex;
+     border-radius: 0 5px 5px 0;
+     justify-content: center;
+}
+ .lang img{
+     height: 20px;
+     width: 20px;
+     margin: 5px 5px -5px 0;
+}
+/* for Lang */
+ header :nth-child(4){
+     margin-left: 20px;
+     font-size: 12.5px;
+}
+ header :nth-child(4) :nth-child(3){
+     margin-bottom:-10px ;
+     color: #b7babd;
+}
+ header :nth-child(5) {
+     display: flex;
+     font-size: small;
+}
+ .sign_in_and_acc_lists :nth-child(2){
+     font-weight: bolder;
+}
+ .sign_in_and_acc_lists .arrow{
+     color: #b7babd;
+     margin-bottom:-23px ;
+}
+ .returns_link{
+     font-size: small;
+     margin-right: 15px;
+}
+ .returns_link :nth-child(2){
+     font-weight: bolder;
+    /* margin-right: 15px;
+     */
+}
+ .cart{
+     display: flex;
+     margin-right: 20px;
+}
+ .cart .cart_1{
+     font-size: 40px;
+     font-weight: bold;
+}
+ .total_product{
+     position: absolute;
+     margin-top: 10px;
+}
+/* ************************************************************************************* */
+ .link_bar{
+     /* height: 40px; */
+     background-color: #232F3E;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding-left: 20px;
+     font-family: "Amazon Ember", Arial, sans-serif;
+}
+ .nav_menu{
+     display: flex;
+     align-items: center;
+}
+ .link_bar_menu{
+     list-style: none;
+     display: flex;
+     align-items: center;
+     gap: 3px;
+     font-size: 12px;
+}
+ .link_bar_menu :nth-child(1):hover{
+     cursor: pointer;
+}
+ .link_bar_menu span{
+     font-weight: bold;
+     margin-right: 15px;
+}
+ .link_bar ul{
+     display: flex;
+     gap: 5px;
+}
+ .link_bar ul li a{
+     letter-spacing: .5px;
+     font-size: 13px;
+     padding: 5px;
+}
+ .link_bar ul li a:hover{
+     outline: 1px solid;
+}
+ .great_deal_link{
+     font-weight: bold;
+     font-size: 15px;
+     margin-right: 20px;
+}
+/* ********************************************************** */
+ @media only screen and (max-width: 920px) {
+     .deliver_location{
+         font-size: 10px;
+         width: 75px;
+    }
+     header :nth-child(4) {
+         font-size: 10px;
+         text-align: center;
+    }
+     header :nth-child(5) {
+         font-size: 10px;
+         margin-right: 10px;
+    }
+     header :nth-child(5) :nth-child(2) {
+         font-size: 10px;
+    }
+     header :nth-child(6) {
+         font-size: 10px;
+    }
+     header :nth-child(6) :nth-child(2) {
+         font-size: 12px;
+    }
+}
+ @media only screen and (max-width: 875px) {
+     header :nth-child(5) {
+         padding: 5px;
+    }
+     .cart{
+         margin-right: 10px;
+    }
+     .cart .cart_1{
+         font-size: 30px;
+    }
+     header :nth-child(6) {
+        /* outline: 1px solid;
+         */
+         font-size: 10px;
+    }
+     .sign_in_and_acc_lists .arrow{
+         position: absolute;
+         margin-left: -15px;
+         margin-top: -6px;
+        /* margin-top: -20px;
+         */
+    }
+}
+ @media only screen and (max-width: 774px) {
+     .link_bar ul li a{
+         letter-spacing: .5px;
+         font-size: 11px;
+         padding: 3px;
+    }
+     .great_deal_link{
+         font-size: 14px;
+         margin-right: 10px;
+    }
+}
+ @media only screen and (max-width: 675px) {
+     .mobile_view_menu{
+         display: flex;
+    }
+     header{
+         flex-wrap: wrap;
+         padding: 0 10px 0 10px;
+         letter-spacing: .1px;
+    }
+     .main_logo{
+         flex-grow: 1;
+         flex-basis: 50%;
+    }
+     header :nth-child(4),:nth-child(6){
+         display: none;
+    }
+     .deliver_location{
+         display: none;
+    }
+     header :nth-child(3){
+         order: 5;
+         padding-bottom: 10px;
+    }
+     header :nth-child(4){
+         background-color: red;
+        /* flex-basis: 30%;
+         */
+    }
+}
+ @media only screen and (max-width: 675px) {
+    .link_bar{
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    .nav_menu{
+        display: none;
+    }
+  
+     .link_bar>*{
+         text-align: center;
+    }
+     .link_bar_menu{
+         gap: 0px;
+    }
+     .link_bar_menu span{
+         margin-right: 5px;
+    }
+     .great_deal_link{
+         font-size: 10px;
+         margin-right: 1px;
+         padding: 10px 0px 10px 10px;
+    }
+     .link_bar ul{
+         gap: 1px;
+         
+    }
+     .link_bar ul li a{
+         font-size: 10px;
+    }
+}

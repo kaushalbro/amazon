@@ -1,0 +1,144 @@
+.side_bar1{ 
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    transition: all 3s linear;
+    min-height: 150vh;
+}
+.side_bar1 :nth-child(1){
+    display: flex; 
+}
+
+.side_bar_main_content{
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: column;
+    height: 1000vh;
+    background-color: rgb(220, 211, 211);
+}
+
+.exit_section{
+    flex-basis: 20%;
+    height: 1000vh;
+    opacity: .8;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 15px;
+}
+.exit_side_bar{
+     outline: 1px solid ;
+     color: white;
+}
+
+.sign_in_section{
+    display: flex;
+    height: 100px;
+    background-color: #232F3E;
+    /* gap: 10px; */
+    width: 100%;
+}
+
+.sign_in_section > *{
+    flex-basis: 50%;
+    flex-grow: 1;
+    color: white;
+}
+
+.sign_in_section_col1 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px 20px 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.sign_in_section_col1 a{
+    display: flex;
+    flex-direction: column;
+}
+.sign_in_section_col1 a :nth-child(1){
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.sign_in_section_col1 a :nth-child(2){
+    font-size: 25px;
+}
+
+.sign_in_section_col2 {
+display: flex;
+justify-content: flex-end;
+padding: 20px;
+}
+
+.sign_in_section_col2 a{
+    display: flex;
+  gap: 5px;
+}
+
+.sign_in_section_col2 span:nth-child(1){
+font-size: 16px;
+    margin-top: 5px;
+}
+
+
+
+
+.sidebar_links >*{
+padding-left: 20px;
+background-color: white;
+margin-bottom: 5px;
+}
+
+.sidebar_links div:nth-child(1){
+    display: flex;
+    align-items: center;
+    height: 75px;
+    justify-content: space-between;
+    color: black;
+    font-size: 22px;
+    font-weight:900;
+}
+.sidebar_home_link a{
+    color: black;
+}
+.sidebar_links div:nth-child(1) span:nth-child(2){
+    padding-right: 20px;
+}
+
+
+.sidebar_trending_links span:nth-child(1){
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight:900;
+    padding:20px 0 20px 0  ;
+}
+
+.sidebar_trending_links ul li a,.sidebar_top_departments ul li a{
+    color: black;
+    margin-bottom: 20px;
+}
+
+.sidebar_top_departments ul {
+display: flex;
+flex-direction: column;
+}
+
+.sidebar_top_departments ul li {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 500;
+    }
+    .sidebar_top_departments span:nth-child(1){
+        /* align-items: center; */
+        padding-top: 25px;
+        margin-bottom: 10px;
+        /* height: 75px; */
+        color: black;
+        font-size: 22px;
+        font-weight:900;
+    }

@@ -1,0 +1,117 @@
+.main_content{
+    position: relative;
+    background-color: #E3E6E6;
+    z-index: 1;
+}
+.background_img{
+    position: relative;
+    z-index: -1;
+}
+.featured_img{
+    width: 100%;
+    height: 100%;
+}
+.slider_arrows{
+    position: absolute;
+    top: 1px;
+    height: 41.5%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 100;
+}
+.slider_arrow_1,.slider_arrow_2{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.slider_arrow_1{
+    margin-left: 2px;
+}
+.slider_arrow_2{
+    margin-right: 2px;
+}
+.slider_arrow_1:hover,.slider_arrow_2:hover{
+    outline: 2px solid rgb(167, 160, 160);
+    cursor: pointer;
+}
+.product_container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: -25%;
+    z-index: 1;
+    justify-content: space-between;
+}
+.product_container > *{
+    gap: 10px;
+    flex-grow: 1;
+    flex-basis: 23%;
+}
+
+.container_2{
+    margin-top: 0%;
+}
+
+
+/* .top_book_seller_container{
+    background-color: white;
+    overflow-y: hidden;
+    height: 250px;
+    margin: 10px 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+} */
+.top_book_seller_container{
+    background-color: white;
+    margin: 10px 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.top_book_seller_container .top_books{
+    display: flex;
+    gap: 15px;
+    overflow-y: hidden;
+}
+.top_book_seller_container span:nth-child(1){
+    font-size: 18px;
+    font-weight: 900;
+}
+
+
+/* *********************************************************** */
+
+@media only screen and (max-width: 1050px) {
+    .product_container > *{
+        flex-basis: 20%;
+   }
+    .product_container{
+        padding: 10px;
+   }
+}
+@media only screen and (max-width: 811px) {
+    .product_container > *{
+        flex-basis: 25%;
+   }
+}
+@media only screen and (max-width: 675px) {
+    .product_container > *{
+        flex-basis: 40%;
+   }
+}
+@media only screen and (max-width: 675px) {
+    .slider_arrow_1,.slider_arrow_2{
+        padding: 5px;
+   }
+}
+
+@media only screen and (max-width: 360px) {
+    .product_container > *{
+        flex-basis: 50%;
+   }
+}
