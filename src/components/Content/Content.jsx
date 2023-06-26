@@ -82,6 +82,46 @@ function Content() {
                 "https://m.media-amazon.com/images/I/61oHbpCqgpL._AC_SY200_.jpg"
               }
             />
+            <TopBookSeller
+              link={
+                "https://m.media-amazon.com/images/I/61oHbpCqgpL._AC_SY200_.jpg"
+              }
+            />
+            <TopBookSeller
+              link={
+                "https://m.media-amazon.com/images/I/61oHbpCqgpL._AC_SY200_.jpg"
+              }
+            />{" "}
+            <TopBookSeller
+              link={
+                "https://m.media-amazon.com/images/I/61oHbpCqgpL._AC_SY200_.jpg"
+              }
+            />{" "}
+            <TopBookSeller
+              link={
+                "https://m.media-amazon.com/images/I/61oHbpCqgpL._AC_SY200_.jpg"
+              }
+            />{" "}
+            <TopBookSeller
+              link={
+                "https://m.media-amazon.com/images/I/61oHbpCqgpL._AC_SY200_.jpg"
+              }
+            />{" "}
+            <TopBookSeller
+              link={
+                "https://m.media-amazon.com/images/I/61oHbpCqgpL._AC_SY200_.jpg"
+              }
+            />{" "}
+            <TopBookSeller
+              link={
+                "https://m.media-amazon.com/images/I/61oHbpCqgpL._AC_SY200_.jpg"
+              }
+            />{" "}
+            <TopBookSeller
+              link={
+                "https://m.media-amazon.com/images/I/61oHbpCqgpL._AC_SY200_.jpg"
+              }
+            />
           </div>
         </div>
 

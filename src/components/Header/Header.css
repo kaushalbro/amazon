@@ -260,6 +260,13 @@ a{
     }
 }
  @media only screen and (max-width: 675px) {
+    header img{
+        height: 55px;
+   }
+   .search_header{
+    margin-top: -7px;
+   margin-bottom: -5px;
+}
     .link_bar{
     padding: 5px;
     flex-wrap: wrap;
