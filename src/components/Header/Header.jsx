@@ -8,18 +8,19 @@ import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
-import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
+import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import "./SideBar.css";
 import { useState } from "react";
 function Header() {
   const [display, setDisplay] = useState("none");
+  const [toggle, setToggle] = useState(false)
+
   function showSideBar() {
     setDisplay("block");
   }
   function hideDisplay() {
     setDisplay("none");
   }
-
   return (
     <>
       <div className="side_bar1" style={{ display: display }}>
@@ -44,33 +45,60 @@ function Header() {
 
             <div className="sidebar_links">
               <div className="sidebar_home_link">
-                <span><a href="#">Amazon Home</a></span>
-                <span><HomeOutlinedIcon /></span>
+                <span>
+                  <a href="#">Amazon Home</a>
+                </span>
+                <span>
+                  <HomeOutlinedIcon />
+                </span>
               </div>
               <div className="sidebar_trending_links">
                 <span>Trending</span>
                 <ul>
-                  <li><a href="#">Movers & Sharkers</a></li>
+                  <li>
+                    <a href="#">Movers & Sharkers</a>
+                  </li>
                 </ul>
               </div>
 
               <div className="sidebar_top_departments">
                 <span>Top Departments</span>
                 <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">PC</a></li>
-                  <li><a href="#">Health & Household</a></li>
-                  <li><a href="#">Books</a></li>
-                  <li><a href="#">Electronics</a></li>
-                  <li><a href="#">Motors</a></li>
-                  <li><a href="#">Stationaty</a></li>
-                  <li><a href="#">Kitchen Item</a></li>
-                  <li><a href="#">Nepali Books</a></li>
-                  <li><a href="#">About Nepal</a></li>
-                  <li><a href="#">See All </a></li>
+                  <li>
+                    <a href="#">Home</a>
+                  </li>
+                  <li>
+                    <a href="#">PC</a>
+                  </li>
+                  <li>
+                    <a href="#">Health & Household</a>
+                  </li>
+                  <li>
+                    <a href="#">Books</a>
+                  </li>
+                  <li>
+                    <a href="#">Electronics</a>
+                  </li>
+                  <li>
+                    <a href="#">Motors</a>
+                  </li>
+                  <li>
+                    <a href="#">Stationaty</a>
+                  </li>
+                  <li>
+                    <a href="#">Kitchen Item</a>
+                  </li>
+                  <li>
+                    <a href="#">Nepali Books</a>
+                  </li>
+                  <li>
+                    <a href="#">About Nepal</a>
+                  </li>
+                  <li>
+                    <a href="#">See All </a>
+                  </li>
                 </ul>
-              
-                            </div>
+              </div>
             </div>
           </div>
 
@@ -106,9 +134,35 @@ function Header() {
           </p>
         </div>
         <div className="search_header">
-          <span className="all_cat border cursor_pointer">
+          <span className="all_cat border cursor_pointer"  onClick={()=>{
+           setToggle(!toggle);
+          }}>
             <p>All</p>
             <ArrowDropDownOutlinedIcon />
+            {
+              toggle && (
+                <div className="all_cat_dropdown">
+                <ul><li><a href="#"> HEllo helo </a></li></ul>
+                <ul><li><a href="#"> HEllo helo </a></li></ul>
+                <ul><li><a href="#"> HEllo helo </a></li></ul>
+                <ul><li><a href="#"> HEllo helo </a></li></ul>
+                <ul><li><a href="#"> HEllo helo </a></li></ul>
+                <ul><li><a href="#"> HEllo helo </a></li></ul>
+                <ul><li><a href="#"> HEllo helo </a></li></ul>
+                <ul><li><a href="#"> HEllo helo </a></li></ul>
+                <ul><li><a href="#"> HEllo helo </a></li></ul>
+                <ul><li><a href="#"> HEllo helo </a></li></ul>
+                <ul><li><a href="#"> HEllo helo </a></li></ul>
+                <ul><li><a href="#"> HEllo helo </a></li></ul>
+                <ul><li><a href="#"> HEllo helo </a></li></ul>
+                <ul><li><a href="#"> HEllo helo </a></li></ul>
+                <ul><li><a href="#"> HEllo helo </a></li></ul>
+                <ul><li><a href="#"> HEllo helo </a></li></ul>
+
+            </div>
+              )
+            }
+        
           </span>
           <input type="text" placeholder="Search Amazon" />
           <div className="btn_search border cursor_pointer">
