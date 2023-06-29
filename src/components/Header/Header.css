@@ -58,6 +58,7 @@ a{
 
 
 .all_cat_dropdown{
+    border: 1px solid ;
     position: absolute;
     top: 41px;
     z-index: 2;
