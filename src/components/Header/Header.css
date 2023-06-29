@@ -71,7 +71,7 @@ a{
     overflow: scroll;
 }
 .all_cat_dropdown a{
-    color: #5d5f61; 
+    color: #000000; 
 }
 .all_cat_dropdown a:hover{
     color: #0077ee; 
