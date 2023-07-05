@@ -2,8 +2,9 @@ import React from "react";
 import "./Footer.css";
 import logo from '../../assets/logo_amazon_1.png'
 import usa_logo from "../../assets/usa_flag.png";
-
 import LanguageIcon from '@mui/icons-material/Language';
+
+
 export default function Footer() {
   return (
     <>

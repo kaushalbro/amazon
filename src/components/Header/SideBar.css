@@ -4,11 +4,9 @@
     width: 100%;
     min-height: 150vh;
 }
-
 .side_bar1 :nth-child(1){
     display: flex; 
 }
-
 .side_bar_main_content{
     flex-basis: 80%;
     display: flex;

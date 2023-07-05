@@ -162,7 +162,7 @@ a{
      display: flex;
      align-items: center;
      justify-content: space-between;
-     padding-left: 20px;
+     padding-left: 13px;
      font-family: "Amazon Ember", Arial, sans-serif;
 }
  .nav_menu{
@@ -186,6 +186,7 @@ a{
  .link_bar ul{
      display: flex;
      gap: 5px;
+
 }
  .link_bar ul li a{
      letter-spacing: .5px;
