@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/netflix-clone/static/css/main.78c0c004.css",
-    "main.js": "/netflix-clone/static/js/main.109f4c84.js",
-    "static/media/featured_img_2.jpg": "/netflix-clone/static/media/featured_img_2.4d36865f92d63b2519a7.jpg",
-    "static/media/featured_img_1.jpg": "/netflix-clone/static/media/featured_img_1.225aaef918f59e5de14a.jpg",
-    "static/media/logo_amazon_1.png": "/netflix-clone/static/media/logo_amazon_1.298fcd46fe0ab079c53c.png",
-    "static/media/usa_flag.png": "/netflix-clone/static/media/usa_flag.98c8877804522bfa1e55.png",
-    "index.html": "/netflix-clone/index.html",
-    "main.78c0c004.css.map": "/netflix-clone/static/css/main.78c0c004.css.map",
-    "main.109f4c84.js.map": "/netflix-clone/static/js/main.109f4c84.js.map"
+    "main.css": "/amazon/static/css/main.78c0c004.css",
+    "main.js": "/amazon/static/js/main.2b621941.js",
+    "static/media/featured_img_2.jpg": "/amazon/static/media/featured_img_2.4d36865f92d63b2519a7.jpg",
+    "static/media/featured_img_1.jpg": "/amazon/static/media/featured_img_1.225aaef918f59e5de14a.jpg",
+    "static/media/logo_amazon_1.png": "/amazon/static/media/logo_amazon_1.298fcd46fe0ab079c53c.png",
+    "static/media/usa_flag.png": "/amazon/static/media/usa_flag.98c8877804522bfa1e55.png",
+    "index.html": "/amazon/index.html",
+    "main.78c0c004.css.map": "/amazon/static/css/main.78c0c004.css.map",
+    "main.2b621941.js.map": "/amazon/static/js/main.2b621941.js.map"
   },
   "entrypoints": [
     "static/css/main.78c0c004.css",
-    "static/js/main.109f4c84.js"
+    "static/js/main.2b621941.js"
   ]
 }
